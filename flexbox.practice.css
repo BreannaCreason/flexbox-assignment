@@ -1,0 +1,64 @@
+*{box-sizing: border-box;}
+
+  [class^="box"] {
+  color:white;
+  font-size: 100px;
+  text-align: left
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  padding:10px;
+}
+
+
+/* box colors*/
+.boxa {
+    background: #1785e5;
+}
+.boxb {
+    background: coral;
+}
+.boxc {
+    background: blueviolet;
+}
+.boxd {
+    background: crimson;
+}
+.boxe {
+    background: bisque;
+}
+.boxf {
+    background: chartreuse;
+}
+.boxg {
+    background: darkorange;
+}
+.boxh {
+    background: #e2ff00;
+}
+.boxi {
+    background: #601696;
+}
+.boxj {
+    background: #ada64f;
+}
+
+
+/* box order*/
+
+.boxa{
+    order: 1;
+}
+.boxb{
+    order: 2;
+}
+.boxc {
+    order: 3;
+}
+.boxd {
+    order: 4;
+}
+.boxe {
+    order: 5
+}
+.boxf {
+    order: 6;
+}
